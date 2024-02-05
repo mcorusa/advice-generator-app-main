@@ -69,14 +69,9 @@ main {
   max-width: 600px;
 }
 
-.divider-img-container {
-  margin: 2.8rem 0 3.2rem 0;
-  width: 100%;
-  max-width: 600px;
-  background-image: url(images/pattern-divider-desktop.svg);
-  height: 16px;
-  object-fit: cover;
-}
+@media only screen and (max-width: 450px) {
+    .divider-img {
+        content: url(images/pattern-divider-mobile.svg);
 
 footer {
   background-color: var(--LightCyan);
